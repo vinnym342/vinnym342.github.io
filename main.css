@@ -1,5 +1,5 @@
 body {
-  font-family:'Playfair Display', serif;
+  font-family: 'Droid Sans', sans-serif;
   color: #5d5d5d;
   background-color: #e6e6e6;
   font-size: 15px;
@@ -68,7 +68,8 @@ article {
 .bg {
   background-size: 100%;
   background-position: center;
-  height: 50vh;
+  background-repeat: no-repeat;
+  height: 40vh;
   width: 100%;
   margin-bottom:30px;
   margin-top:20px;
@@ -79,9 +80,13 @@ article {
 }
 /*For 'technologies that I'm familiar with' banner*/
 .banner {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 35%;
+  padding:1vh;
   background-color: rgba(255,255,255,0.95);
 }
 
@@ -102,6 +107,7 @@ article {
 
 .projects .bg {
   background-image: url("/bgs/projects-mobile.png");
+  background-color: rgba(140, 185, 228,0.4);
 }
 
 .content {
@@ -138,6 +144,7 @@ article {
 
 .back-end .bg {
   background-image: url("/bgs/back-end-mobile2.png");
+  background-color: #ffffff;
 }
 .logo-block {
   display: flex;
@@ -146,6 +153,9 @@ article {
   height: 60%;
 }
 
+.back-end .banner {
+  width:80%;
+}
 .back-end .row-1 , .back-end .row-2 {
   display: flex;
   flex-direction: row;
@@ -154,8 +164,8 @@ article {
 }
 
 .logo-block img{
-  width:30%;
-  height:30%;
+  width:40%;
+  height: 40%;
 }
 
 .back-end .row-3 {
@@ -173,6 +183,7 @@ article {
 
 .front-end .bg {
   background-image: url("/bgs/front-end-mobile.png");
+  background-color: rgba(161, 153, 145,0.4);
 }
 
 .front-end .row-1, .front-end .row-2, .front-end .row-3{
@@ -193,14 +204,20 @@ article {
 }
 
 .add-bottom-margin {
-  margin-bottom:10vh;
+  margin-bottom:15vh;
 }
 
 .about-me .bg {
   background-image: url("/bgs/about-me.png");
+  background-color: rgba(227, 244, 237,0.4);
 }
 .going-on-now .bg {
   background-image: url("/bgs/going-on-now-mobile.png");
+  background-color: #ffffff;
+}
+
+.going-on-now .text-contain{
+  width:90%;
 }
 .insta {
   border-style: solid;
@@ -235,6 +252,15 @@ article {
 }
 .group:after {
   clear: both;
+}
+.testing {
+  height: 150px;
+  width: 150px;
+  background-image:url("/imgs/gulp.svg") /*make javascript andhtml switch when laptop or higher (extra feature, make it line up the same way with ipad)*/
+}
+
+.testing::before{
+  background: url("/imgs/front-end/gulp.svg");
 }
 /*Landscape*/
 @media screen and (orientation : landscape) {
@@ -284,9 +310,21 @@ article {
   nav li a {
     font-size: 2.3em;
   }
-  .back-end .row-3 {
-    height: 400px;
+
+  .logo-block img{
+    width:20%;
+    height: 20%;
   }
+  .back-end .row-1 , .back-end .row-2 {
+    justify-content: space-around;
+  }
+  .back-end .row-3 {
+    align-items: center;
+  }
+  .back-end .row-3 img{
+    width:30%;
+  }
+
 }
 
 /* Tablet Landscape rules */
@@ -309,10 +347,14 @@ article {
   .bg .middle {
     top:10%;
   }
+  /*.social-icons {
+    padding-top: 8vh;
+    margin-bottom: 10vh;
+  }
   .social-icons img{
     width:50px;
     height:50px;
-  }
+  }*/
   .projects .content{
     height:500px;
   }
@@ -342,6 +384,7 @@ article {
   }
   .back-end .content {
     height:400px;
+    width:70%;
   }
   .logo-block {
     display: inline-block;
@@ -355,6 +398,7 @@ article {
     height:150px;
   }
   .back-end .row-1 , .back-end .row-2 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -366,11 +410,16 @@ article {
     height: 350px;
     display: inline-block;
     float:right;
+    justify-content: center;
+    padding-top: 10px;
   }
   .back-end .row-3 img {
-    width:100%;
-    padding-top:30px;
-    padding-bottom:20px;
+    height: 150px;
+    width:175px;
+  }
+
+  .back-end .add-top-margin {
+    padding-top:10px;
   }
   .front-end img{
     height: 200px;
@@ -380,6 +429,7 @@ article {
   {
     height: 70%;
   }
+
   .front-end .row-1 {
   width: 70%;
   display:flex;
@@ -387,6 +437,7 @@ article {
   flex-direction: row;
   justify-content: space-around;
   }
+
   .front-end .row-2 {
     width: 30%;
     display:flex;
@@ -401,14 +452,19 @@ article {
     flex-direction: row;
     justify-content: space-around;
   }
+  .about-me {
+    padding-bottom: 5vh;
+  }
+  .testing {
+    height: 150px;
+    width: 150px;
+    background-image:url("/imgs/gulp")
+  }
 }
 /* Desktop HD rules */
 @media screen and (min-width: 1440px) {
 
-  .back-end .row-3 img {
-    width:80%;
-    padding-top:10px;
-    padding-bottom:30px;
-    float:right;
+  .bg{
+    height:50vh;
   }
 }
