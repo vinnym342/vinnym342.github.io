@@ -1,0 +1,24 @@
+<svg width="324" height="372" viewBox="0 0 324 372" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>csharp</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(3 0 0 3 -13734 -1857)" figma:type="canvas">
+<g id="csharp" figma:type="frame">
+<g id="Group" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(4578 619)" fill="#9B4F96"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(4578.7 650.1)" fill="#68217A"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(4592.5 641.3)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 105.4 28.5L 57.1 0.7C 56.3 0.2 55.2 4.76837e-08 54 4.76837e-08C 52.8 4.76837e-08 51.7 0.3 50.9 0.7L 2.9 28.6C 1.2 29.6 -1.24345e-14 32.1 -1.24345e-14 34L -1.24345e-14 89.7C -1.24345e-14 90.8 0.2 92.1 1 93.2L 107.8 31.2C 107.2 30 106.3 29.1 105.4 28.5L 105.4 28.5Z"/>
+<path id="path1_fill" d="M -1.90735e-07 62C 0.5 62.8 1.2 63.5 1.9 63.9L 50.1 91.8C 50.9 92.3 52 92.5 53.2 92.5C 54.4 92.5 55.5 92.2 56.3 91.8L 104.3 63.9C 106 62.9 107.2 60.4 107.2 58.5L 107.2 2.8C 107.2 1.9 107.1 0.899999 106.6 -7.62939e-07L -1.90735e-07 62L -1.90735e-07 62Z"/>
+<path id="path2_fill" d="M 60.8 51.6C 56.6 59 48.6 64 39.5 64C 26 64 15 53 15 39.5C 15 26 26 15 39.5 15C 48.6 15 56.6 20 60.8 27.5L 73.8 20C 67 8.1 54.2 0 39.5 0C 17.7 0 0 17.7 0 39.5C 0 61.3 17.7 79 39.5 79C 54.1 79 66.9 71 73.7 59.2L 60.8 51.6L 60.8 51.6ZM 72.5 41.7L 73.4 37.4L 69.2 37.4L 69.2 32.7L 74.3 32.7L 75.5 26.5L 80.4 26.5L 79.2 32.6L 83 32.6L 84.2 26.5L 89 26.5L 87.8 32.6L 90.2 32.6L 90.2 37.3L 86.9 37.3L 86 41.6L 90.2 41.6L 90.2 46.3L 85.1 46.3L 83.9 52.3L 79 52.3L 80.2 46.3L 76.4 46.3L 75.2 52.3L 70.4 52.3L 71.6 46.3L 69.2 46.3L 69.2 41.6L 72.5 41.6L 72.5 41.7ZM 77.3 41.7L 81.1 41.7L 82 37.4L 78.2 37.4L 77.3 41.7Z"/>
+</defs>
+</svg>

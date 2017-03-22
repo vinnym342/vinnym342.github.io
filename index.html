@@ -1,18 +1,180 @@
 <!DOCTYPE html>
-
+<!-- Make sure to change og image to front page of website -->
+<!-- Remeber to make a sitemap when website finished -->
+<!-- Add social widgets? -->
 <html>
 <head>
+  <!-- Just the font  -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/main.css">
+  <link rel="icon" href="/favicon.png">
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <meta name="Description" Content="William Vincent Marcos portfolio, check out his awesome website">
+  <meta name="author" Content="William Vincent Marcos">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/parallax-jquery/parallax.js"></script>
   <title>
     Vinny's Webpage
   </title>
   <meta name='description' content='This is Vinnys portfolio' />
   <meta property='og:title' content='Social Media OG Portfolio'/>
   <meta property='og:type' content='website'/>
-  <meta property='og:description' content='This is the best portfolio ever for humanity'/>
-  <meta property='og:image' content='/images/idk.jpg'/>
+  <meta property='og:image' content='/imgs/idk.jpg'/>
 </head>
 <body>
-  <h1>Hai</h1>
-</body>
-</html>
+  <main>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#projects-start">Projects</a></li>
+          <li><a href="#familiar-tech-start">Familiar Tech</a></li>
+          <li><a href="#about-me-start">About Me</a></li>
+          <li><a href="#contact-me-start">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article class="start">
+      <h2>William Vincent A. Marcos</h2>
+      <img src="/imgs/intro/my-face.png" alt="My Face">
+      <h3>Full Stack Developer</h3>
+    </article>
+    <div class="social-icons">
+      <img src="/imgs/going-on-now/linkedin.svg" alt="Linkedin Logo">
+      <img src="/imgs/going-on-now/instagram.svg" alt="Instagram Logo">
+      <img src="/imgs/going-on-now/skype.svg" alt="Skype Logo">
+    </div>
+
+
+    <div class="parallax-test" data-parallax="scroll" data-image-src="/test.jpg">
+    </div>
+
+    <article id="projects-start" class="projects">
+      <div class="bg">
+        <h2 class="banner">
+          Projects
+        </h2>
+      </div>
+
+      <div class="content">
+        <div class="project-example-and-text">
+        <img class="project-example" src="/imgs/projects/battleship.gif" alt="Project Example - battleships">
+        <div class="text-contain">
+          <p>My ruby project of a battleships game. You can only play with 2 people. Ruby code is on my github page</p>
+        </div>
+        </div>
+        <div class="project-links">
+          <img src="/imgs/projects/codepen.svg" alt="Codepen Logo">
+          <img src="/imgs/projects/github.svg" alt="Github Logo">
+        </div>
+
+      </div>
+    </article>
+    <article id="familiar-tech-start" class="back-end">
+      <div class="bg">
+        <h2 class="banner top">Technologies I'm Familiar With</h3>
+          <h3 class="banner middle">
+            Back End Tech
+          </h3>
+        </div>
+        <div class="content">
+
+          <div class="logo-block">
+
+            <div class="row-1">
+              <img src="/imgs/back-end/ruby.svg" alt="ruby logo">
+              <img src="/imgs/back-end/rails.svg" alt="rails logo">
+            </div>
+
+            <div class="row-2">
+              <img src="/imgs/back-end/mongodb.svg" alt="mongodb logo">
+              <img src="/imgs/back-end/csharp.svg" alt="csharp logo">
+            </div>
+
+          </div>
+
+          <div class="row-3">
+            <img src="/imgs/back-end/mysql.svg" alt="mysql logo">
+            <img src="/imgs/back-end/nodejs.svg" alt="nodejs logo">
+          </div>
+        </div>
+      </article>
+
+      <article id="#front-end-start" class="front-end">
+        <div class="bg">
+          <h3 class="banner">
+            Front-End Tech
+          </h3>
+        </div>
+        <div class="content">
+          <div class="row-1">
+            <img src="/imgs/front-end/css.svg" alt="CSS Logo">
+            <img src="/imgs/front-end/html.svg" alt="HTML Logo">
+          </div>
+          <div class="row-2">
+            <img src="/imgs/front-end/js.svg" alt="Javascript Logo">
+          </div>
+
+          <div class="row-3">
+            <img src="/imgs/front-end/bootstrap.svg" alt="Bootstrap Logo">
+            <img src="/imgs/front-end/react.svg" alt="React JS Logo">
+          </div>
+        </div>
+      </article>
+
+      <div class="add-top-margin-ipad text-contain">
+        <p>Though these are the technologies I’m familiar with, I would love to learn different languages and will be able to accomodate whatever programming needs you have.</p>
+      </div>
+
+      <article id="about-me-start" class="about-me">
+        <div class="bg">
+          <h2 class="banner">
+            About-Me
+          </h2>
+        </div>
+        <div class="text-contain">
+          <h3>Where I’m From</h3>
+          <p>I’m a proud Filipino, born in Manila, raised Ilocos Norte. For highschool I went to boarding school in the UK countryside for about 7 years and lived in London for 1 year. </p>
+          <h3>Hobbies and Interests</h3>
+          <p>In my free time I like to skate and explore cities, listen to a variety of music, traveling and eating as many different types of food possible. I love solving puzzles and learning about new technologies, cultures, ideas and thought schemas.</p>
+        </div>
+      </article>
+
+      <article id="going-on-now-start" class="going-on-now">
+        <div class="bg">
+          <h2 class="banner">
+            What's going on now?
+          </h2>
+        </div>
+        <div class="text-contain">
+          <p>I’m currently on a full stack, fast track, web development course in Coder Factory in Melbourne.
+            The course includes HTML, CSS, Bootstrap, Ruby on Rails and Javascript with the NodeJS and ReactJS frameworks.
+            I was drawn to a career in IT to create and collaborate with others.
+          </p>
+        </div>
+        <div class="social media">
+          <!-- Add social widgets -->
+
+        </div>
+      </article>
+
+      <article id="contact-me-start">
+        <div class="banner">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="text-contain">
+          <p>Whether it be for a job or a chat, please don’t hesitate to contact me.</p>
+        </div>
+        <div class="info text-contain">
+          <p>William Vincent A. Marcos<br/>vincentmarcos@hotmail.com</p>
+        </div>
+      </article>
+      <div class="social-icons">
+        <img src="/imgs/going-on-now/linkedin.svg" alt="Linkedin Logo">
+        <img src="/imgs/going-on-now/instagram.svg" alt="Instagram Logo">
+        <img src="/imgs/going-on-now/skype.svg" alt="Skype Logo">
+      </div>
+    </main>
+  </body>
+  </html>

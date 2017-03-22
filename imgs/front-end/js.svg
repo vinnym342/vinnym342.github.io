@@ -1,0 +1,80 @@
+<svg width="804" height="1140" viewBox="0 0 804 1140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(3 0 0 3 -14844 -1374)" figma:type="canvas">
+<g id="Group" figma:type="frame">
+<g id="Group" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(9 0 0 9 4948 533)" fill="#EFC725"/>
+</g>
+</g>
+</g>
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path1_fill" transform="matrix(9 0 0 9 5081.77 555.049)" fill="#FBDE34"/>
+</g>
+</g>
+</g>
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(9 0 0 9 5008.14 706.979)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path3_fill" transform="matrix(9 0 0 9 5008.26 568.007)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path4_fill" transform="matrix(9 0 0 9 5086.01 567.99)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path5_fill" transform="matrix(9 0 0 9 5082.43 568.007)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path6_fill" transform="matrix(9 0 0 9 5081.6 656.619)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<g id="javascript-logo-E967E87D74-seeklogo.com" figma:type="frame">
+<g id="Group" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path7_fill" transform="matrix(0.1 0 0 -0.1 5021 510)"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path8_fill" transform="matrix(0.1 0 0 -0.1 5084.33 510)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 2.70998 30.4204L 4.43541e-23 -3.60007e-22L 29.7778 -3.60007e-22L 27.065 30.4155L 14.8706 33.799L 2.70998 30.4204Z"/>
+<path id="path1_fill" d="M 0 28.7254L 9.85366 25.9914L 12.172 4.01437e-24L 0 4.01437e-24L 0 28.7254Z"/>
+<path id="path2_fill" d="M 8.17559 4.09293L 8.15938 4.09764L 4.00761 2.9754L 3.74202 1.42467e-22L 1.7248 1.42467e-22L 1.12116e-23 1.42467e-22L 0.522274 5.85801L 8.15838 7.97967L 8.17559 7.97476L 8.17559 4.09293Z"/>
+<path id="path3_fill" d="M 8.66533 13.5743L 8.66533 9.84343L 4.07489 9.84343L 4.61317 3.98803L 8.67565 3.87972L 8.66533 3.59842e-23L 1.24277 3.59842e-23L 0.967067 2.75017L 0.0908997 12.5724L 1.91656e-25 13.5743L 1.00461 13.5743L 8.66533 13.5743Z"/>
+<path id="path4_fill" d="M 7.9218e-24 3.88664L 0.0163174 3.88202L 4.0879 4.1274L 4.43338 7.97947L 6.4507 7.97947L 8.17559 7.97947L 7.52348 0.771076L 0.0172187 8.07685e-23L 7.9218e-24 0.00480962L 7.9218e-24 3.88664Z"/>
+<path id="path5_fill" d="M 8.18841 3.89636L 7.86896 3.59842e-23L -8.11159e-22 3.59842e-23L -8.11159e-22 2.41983L -8.11159e-22 3.88664L -8.11159e-22 3.89636L 8.18841 3.89636Z"/>
+<path id="path6_fill" d="M -4.29386e-23 -1.67854e-22L -4.29386e-23 3.73074L 4.59046 3.73074L 4.15778 8.56929L -4.29386e-23 9.69268L -4.29386e-23 13.5743L 7.64241 11.4544L 7.69837 10.8241L 8.57454 1.00182L 8.66544 -1.67854e-22L 7.66083 -1.67854e-22L -4.29386e-23 -1.67854e-22Z"/>
+<path id="path7_fill" d="M 262.041 346.667L 262.041 173.333L 131.02 173.333L 0 173.333L 0 86.6667L 0 0L 218.367 0L 436.735 0L 436.735 260L 436.735 520L 349.388 520L 262.041 520L 262.041 346.667Z"/>
+<path id="path8_fill" d="M 0 429C 0 353.167 13.102 322.833 80.7959 255.667L 161.592 173.333L 80.7959 173.333C 0 173.333 0 171.167 0 86.6667L 0 0L 218.367 0L 436.735 0L 436.735 82.3333C 436.735 147.333 421.449 179.833 360.306 238.333C 318.816 279.5 283.878 320.667 283.878 329.333C 283.878 338 318.816 346.667 360.306 346.667C 434.551 346.667 436.735 348.833 436.735 433.333L 436.735 520L 218.367 520L 0 520L 0 429Z"/>
+</defs>
+</svg>
