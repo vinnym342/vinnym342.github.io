@@ -350,6 +350,9 @@ article {
   .back-end .row-3 {
     height: 600px;
   }
+  .social-icons {
+    width: 60%;
+  }
   .back-end .row-1 , .back-end .row-2 {
     justify-content: space-between;
   }
@@ -460,6 +463,15 @@ article {
   .bg{
     height:50vh;
   }
+  .start {
+    height: 30%;
+  }
+  .social-icons {
+    width: 60%;
+  }
+  .back-end .row-1 , .back-end .row-2 {
+justify-content: space-around;
+}
   .bg .banner {
     top:30%;
   }
