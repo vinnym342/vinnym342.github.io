@@ -69,12 +69,13 @@ article {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
+
   height: 40vh;
   width: 100%;
   margin-bottom:30px;
   margin-top:20px;
-  /*background-color: #fff;*/
+  background-color: #ffffff;
     border-top: solid 2px;
     border-bottom: solid 2px;
     border-color: black;
@@ -107,8 +108,8 @@ article {
 }
 
 .projects .bg {
-  background-image: url("/bgs/projects-mobile.png");
-  background-color: rgba(140, 185, 228,0.4);
+  background-image: url("/bgs/projects.jpeg");
+  background-color: #ffffff;
 }
 
 .content {
@@ -130,7 +131,7 @@ article {
 
 .projects .content .project-example {
   box-shadow: 10px 10px 20px 0px #262626;
-  width: 80%;
+  width: 100%;
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -144,7 +145,7 @@ article {
 }
 
 .back-end .bg {
-  background-image: url("/bgs/back-end-mobile2.png");
+  background-image: url("/bgs/back-end-mobile2.jpeg");
   background-color: #ffffff;
 }
 .logo-block {
@@ -183,8 +184,8 @@ article {
 }
 
 .front-end .bg {
-  background-image: url("/bgs/front-end-mobile.png");
-  background-color: rgba(161, 153, 145,0.4);
+  background-image: url("/bgs/front-end-mobile.jpeg");
+  background-color: #ffffff;
 }
 
 .front-end .row-1, .front-end .row-2, .front-end .row-3{
@@ -213,11 +214,11 @@ article {
 }
 
 .about-me .bg {
-  background-image: url("/bgs/about-me.png");
-  background-color: rgba(227, 244, 237,0.4);
+  background-image: url("/bgs/about-me.jpeg");
+  background-color: #ffffff;
 }
 .going-on-now .bg {
-  background-image: url("/bgs/going-on-now-mobile.png");
+  background-image: url("/bgs/going-on-now.jpeg");
   background-color: #ffffff;
 }
 
@@ -271,6 +272,11 @@ article {
   background-image:url("/imgs/gulp.svg") /*make javascript andhtml switch when laptop or higher (extra feature, make it line up the same way with ipad)*/
 }
 
+.contact-me .add-bottom-margin-less
+{
+  margin-bottom:5vh;
+}
+
 .testing::before{
   background: url("/imgs/front-end/gulp.svg");
 }
@@ -283,10 +289,10 @@ article {
     height: 70vh;
   }
   .projects .bg {
-    background-image: url("/bgs/projects.png")
+    background-image: url("/bgs/projects.jpeg")
   }
   .front-end .bg {
-    background-image: url("/bgs/front-end.png")
+    background-image: url("/bgs/front-end.jpeg")
   }
 
 }
