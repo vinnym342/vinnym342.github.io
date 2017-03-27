@@ -87,8 +87,9 @@ article {
   text-align: center;
   position: relative;
   top: 35%;
-  padding:1vh;
-  background-color: rgba(255,255,255,0.95);
+  padding:20px;
+  background-color: #e6e6e6;
+/*rgba(255,255,255,0.95*/
 }
 
 .start{
@@ -183,7 +184,7 @@ article {
 }
 
 .front-end .bg {
-  background-image: url("/bgs/front-end-mobile.jpeg");
+  background-image: url("/bgs/front-end.jpeg");
   background-color: #ffffff;
 }
 
