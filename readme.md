@@ -10,15 +10,16 @@ The idea was to try and show my personality as short bursts of color with images
 
 I used figma to wireframe and design my website. This was my initial sketch
 
-![First Wireframe](readme/original_wireframe.jpg "Original Wireframe")
+![First Wireframe](readme/original_wireframe.jpg)
 
 My final Mobile Wireframe
-![Final Mobile Wireframe](readme/original_wireframe.jpg)
+![Final Mobile Wireframe](readme/final_wireframe.jpg)
 
 
 MY desktop wireframe
-![Desktop Wireframe](readme/original_wireframe.jpg)
+![Desktop Wireframe](readme/desktop_wireframe.jpg)
 
+I originally wanted much more for the About Me section, but it removed it later because it was just too much for a reader to read.
 
 The website we build would have to be responsive so I was initially tempted to use bootstrap. However, I wanted to make my portfolio in pure CSS as a challenge and make sure CSS was sound before I start using bootstrap as this would be a tool for learning.
 
@@ -46,13 +47,13 @@ During the time of creating this document, this section was more to emphasize th
 Hopefully if they have read thus far, they would want to contact me. I put it in the bottom just for the slight convenience it provides and just feel slightly more accessible.
 
 ## Tools used
-*DevIcons
-*Iphone 5s
-*Ipad Mini
-*StackOverflow
-*Mac Preview
-*Figma
-*Trello (Just general plan)
+* DevIcons
+* Iphone 5s
+* Ipad Mini
+* StackOverflow
+* Mac Preview
+* Figma
+* Trello (Just general plan)
 
 
 ## Things to add
